@@ -1,5 +1,8 @@
 # [You don't (may not) need Moment.js](https://you-dont-need.github.io/You-Dont-Need-Momentjs/#/)
 
+> [!TIP]
+> _tl;dr_: Just use [Luxon](https://github.com/moment/luxon), Moment's successor. [It's pretty good](https://github.com/moment/luxon/blob/master/docs/why.md) and avoids all the shortcomings of MomentJS.
+
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://dev.to/t/momentjs)
 
 [Moment.js](https://momentjs.com/) is a fantastic time & date library with lots of great features and utilities. However, if you are working on a performance sensitive web application, it might cause a huge performance overhead because of its complex APIs and large bundle size.
